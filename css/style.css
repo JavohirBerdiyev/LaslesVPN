@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Rubik', sans-serif;
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+.row {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.row.header {
+  justify-content: space-between;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+header {
+  padding: 20px 0;
+}
+
+/* logo */
+.logo-link {
+  display: flex;
+  align-items: center;
+}
+
+.logo-link h1 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #0B132A;
+}
+.logo-link h1 span {
+  font-weight: 700;
+}
+
+header ul {
+  display: flex;
+  align-items: center;
+}
+
+.nav-item {
+  margin: 0 20px;
+}
+.nav-item .nav-link {
+  font-size: 16px;
+  line-height: 19px;
+  color: #4F5665;
+  text-transform: capitalize;
+  transition: color 0.5s ease;
+}
+
+.nav-item .nav-link:hover {
+  color: black;
+}
+
+.sign-link {
+  font-weight: 500;
+  color: #0B132A;
+  text-transform: capitalize;
+}
+.sign-item.sign-up {
+  margin-left: 30px;
+}
+
+.sign-item.sign-up a {
+  color: #F53855;
+  padding: 13px 45px;
+  border: 1px solid #F53855;
+  border-radius: 50px;
+  transition: all 0.5s ease;
+  background-color: transparent;
+}
+
+.sign-item.sign-up a:hover {
+  background-color:#F53855;
+  color: #fff;
+}
